@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* header einbinden */}
       <body className={inter.className}>{children}</body>
+      {/* footer einbinden */}
     </html>
   )
 }
