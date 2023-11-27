@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +18,19 @@
 }
 
 body {
+  display: flex; /* Flex-Container für die Ausrichtung der Kinder */
+  flex-direction: column; /* Vertikale Ausrichtung der Kinder */
+  min-height: 100vh; /* Minimale Höhe auf Bildschirmgröße */
+  margin: 0; /* Entfernt den Standardrand */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
+}
+
+
+.font-fitness {
+    font-family: 'Roboto', sans-serif;
 }
