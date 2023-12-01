@@ -3,8 +3,6 @@ import { NextPage } from "next";
 const Header: NextPage = () => {
 
     return (
-
-
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-2" id="navbar-user">
@@ -24,7 +22,18 @@ const Header: NextPage = () => {
                         <li>
                             <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                         </li>
+                        <li>
+                           
+                        </li>
                     </ul>
+                    { true  === true ? (
+                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                                Mitarbeiter Login
+                            </button>):
+                            (   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            Dashboard
+                        </button>)                 }
+                    
                 </div>
                 <div className="flex items-left md:order-1 space-x-3 ">
                     <a href="https://localhost/" className="flex items-center space-x-3">
