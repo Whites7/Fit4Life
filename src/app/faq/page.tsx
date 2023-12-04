@@ -10,7 +10,7 @@ const FaqPage: NextPage = () => {
             <h1>It is me! The FAQ!</h1>
         </div><div id="faqContainerQuestions">
                 <li>Who did This?</li>
-                <li>Why was this done?</li>
+                <li>Why was this done?!</li>
             </div></>
 
     );
