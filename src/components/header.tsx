@@ -44,7 +44,7 @@ const Header: NextPage = () => {
                 </div>
                 <div className="flex items-left md:order-1 space-x-3 ">
                     <a href="https://localhost/" className="flex items-center space-x-3">
-                        <Image src="/next.svg" className="h-8" alt="Flowbite Logo" width={50} height={50} />
+                        <Image src="/next.svg" className="h-8" alt="Flowbite Logo" width={100} height={100} />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fit4Life</span>
                     </a>
                 </div>
