@@ -1,0 +1,12 @@
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.con2 {
+    width: 400px;
+}
